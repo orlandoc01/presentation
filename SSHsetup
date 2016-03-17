@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Setting up your session. Type your name and then hit enter:"
+read name
+mkdir "${name}_session"
+cp -R "example-app/" "${name}_session"
+cd "${name}_session/example-app"
